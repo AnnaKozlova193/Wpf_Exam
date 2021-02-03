@@ -1,0 +1,20 @@
+﻿<Window x:Class="Exam_Wpf.Schedule"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exam_Wpf"
+        mc:Ignorable="d"
+        Title="Schedule" Height="500" Width="550">
+
+    <Grid>
+        <Image Source="Stars0.jpg" Stretch="Fill" />
+
+        <Grid Margin="50" Height="Auto" Width="Auto" Background="White" >
+
+            <Image Margin="50" Name="image1" />
+
+        </Grid>
+    </Grid>
+
+   </Window>
